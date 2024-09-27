@@ -1,17 +1,15 @@
-
 lista = []
 
 for i in range(10):
-  number = int(input("Podaj 10 liczb: "))
+  number = int(input("Enter 10 numbers: "))
   lista.append(number)
 
-sortowanie = str(input("czy chcesz posortowac liste malejaco czy rosnaca? Malejaco or Rosnaco: "))
+sortowanie = str(input("Do you want to sort the list in Descending or Ascending order?: "))
 
-if sortowanie == "Malejaco":
+if sortowanie == "Descending":
   lista.sort(reverse=True)
-elif sortowanie == "Rosnaco":
+elif sortowanie == "Ascending":
   lista.sort()
 else:
-  print("Error: Jestes debilem!")
-
+  print("Error: You are stupid!")
 print(lista)

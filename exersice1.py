@@ -1,4 +1,4 @@
-max = int(input("Podaj max'a: "))
+max = int(input("Enter the maximum number: "))
 
 lista = [i for i in range(0, max)]
 
