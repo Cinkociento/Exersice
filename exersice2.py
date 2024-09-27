@@ -4,7 +4,7 @@ for i in range(10):
   number = int(input("Enter 10 numbers: "))
   lista.append(number)
 
-sortowanie = str(input("Do you want to sort the list in Descending or Ascending order?: "))
+sortowanie = str(input("Do you want to sort your number in Descending or Ascending order?: "))
 
 if sortowanie == "Descending":
   lista.sort(reverse=True)
