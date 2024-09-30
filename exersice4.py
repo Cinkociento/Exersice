@@ -18,7 +18,7 @@ b1 = int(input("---------------Podaj pierwszy bok prostokąta: ---------------\n
 b2 = int(input("---------------Podaj drugi bok prostokąta: ---------------\nLiczbe wpisz tutaj: "))
 
 b1_finish = obwod_prostokata(b1, b2)
-b2_finish = obwod_prostokata(b1, b2)
+b2_finish = pole_prostokata(b1, b2)
 
 print(f"\n---------------Obwód twojego prostokąta to: {b1_finish}---------------") 
 # print(b1_finish)
