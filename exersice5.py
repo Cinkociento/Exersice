@@ -12,7 +12,7 @@ def pobrana_lista():
       time.sleep(2)
       sys.exit(1)
 
-  for i in range(5):
+  for i in range(4):
     pobierz = int(input("Podaj liczby do listy: "))
     lista.append(pobierz)
   sortowanie = input("Chcesz posortowac liste malejaco czy rosnaco?: ")
